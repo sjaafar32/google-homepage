@@ -1,98 +1,53 @@
 <!DOCTYPE html>
+<html>
+
 <head>
     <title>Google.com</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
-<style>
-
-    button:hover {
-        border-width: 1px;
-        border-color: gray;
-    }
-
-    input:hover {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-
-    .GoogleSearch-button{
-        border-width: 0px;
-        background-color:#f2f2f2;
-        width: 127.367px;
-        height: 36px;
-        border-radius: 4px;
-        font-family: arial, sans-serif;
-        font-size: 14px;
-        margin: 30px 5px 0px 0px;
-            }
 
 
-    .Lucky-button{
-        border-width: 0px;
-        background-color:#f2f2f2;
-        width: 142.467px;
-        height: 36px;
-        border-radius: 4px;
-        font-family: arial, sans-serif;
-        font-size: 14px;
-        margin: 30px 0px 0px 5px;
-    }
-    .Searchbar{
-        width: 582px;
-        height: 44px;
-        border-width: 1px;
-        border-radius: 10px;
-        margin-top: 30px;
-    }
+<body>
 
-
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    li {
-        display: inline;
-    }
-
-    li a {
-        text-decoration: none;
-        color: #000;
-        margin: 0px 10px;
-        font-family: arial, sans-serif;
-        font-size: 13px;
-    }
-
-    li a:hover {
-        text-decoration: underline;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content:flex;
-        flex-direction: column;
-    }
-</style>
-
+<header>
+    <nav class="navbar">
+        <ul>
+            <li style="float: inline-end;"><button class="signin-button" type="submit"><a class="signin-text" href="#">Sign in</a></button></li>
+            <li style="float: inline-start; margin-left: -30px;" ><a class="grey" href="#">About</a></li>
+            <li style="float: inline-start;"><a class="grey" href="#">Store</a></li>
+            <li style="float: inline-end; margin-top: -3px;"><a class="grey" href="#"><span class="material-icons">apps</span></a></li>       
+            <li style="float: inline-end;" ><a class="grey" href="#">Images</a></li> 
+            <li style="float: inline-end;"><a class="grey" href="#">Gmail</a></li>
+        </ul>
+    </nav>
+</header>
 
 <main>
-<div class="navbar">
-    <ul>
-        <li style="float: inline-start; margin-left: -30px;" ><a href="#">About</a></li>
-        <li style="float: inline-start;"><a href="#">Store</a></li>
-        <li style="float: inline-end; margin-top: -3px;"><a href="#"><span class="material-icons">apps</span></a></li>       
-        <li style="float: inline-end;" ><a href="#">Images</a></li> 
-        <li style="float: inline-end;"><a href="#">Gmail</a></li>
-    </ul>
-</div>
 
-    <div class="container"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> </div>
+    <div class="center">
+        <div class="container"> <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> </div>
         <div class="container"> <input class="Searchbar" type="text" placeholder="Type here"> </div>
-            <div class="container">  <button class="GoogleSearch-button" type="submit">Google Search</button> 
-                <button class="Lucky-button" type="submit">I'm Feeling Lucky</button> </div>
-                    <span class="material-icons">search</span>
-                    
+        <div class="container">  <button class="GoogleSearch-button" type="submit">Google Search</button> 
+        <button class="Lucky-button" type="submit">I'm Feeling Lucky</button> </div>
+        <span class="material-icons">search</span>
+    </div>
+
 </main>
+
+<footer>
+    <div class="footer">
+        <ol>
+            <li style="float:inline-start; margin-left: -30px;"><a class="grey" href="#">Advertising</a></li>
+            <li style="float:inline-start; "><a class="grey"  href="#">Business</a></li>
+            <li style="float:inline-start; "><a class="grey"  href="#">How Search Works</a></li>
+            <li style="float:inline-end; margin-right: 30px;"><a class="grey" href="#">Settings</a></li>
+            <li style="float:inline-end; "><a class="grey"  href="#">Terms</a></li>
+            <li style="float:inline-end; "><a class="grey"  href="#">Privacy</a></li>
+        </ol>
+    </div>
+</footer>
+
+</body>
+</html>
