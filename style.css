@@ -1,11 +1,29 @@
 <style>
-
-    button:hover {
+    
+    .GoogleSearch-button:hover {
         border-width: 1px;
         border: solid rgb(206, 206, 207) .5px;
     }
 
-    input:hover {
+    .GoogleSearch-button:hover {
+        border-width: 1px;
+        border: solid rgb(206, 206, 207) .5px;
+    }
+
+    .flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+
+    .Lucky-button:hover {
+        border-width: 1px;
+        border: solid rgb(206, 206, 207) .5px;
+    }
+
+    .Searchbar:hover {
         box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
         border-color: rgba(223,225,229,0);
     }
@@ -38,15 +56,26 @@
         width: 582px;
         height: 44px;
         border-width: 1px;
-        border-radius: 10px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: rgba(201, 202, 201, 0.973);
         margin-top: 30px;
+        
+        height: 40px;
+        width: 500px;
+        padding: 0px, 40px;
+        border-width: 1pt;
+        border-style: solid;
+        border-color: rgba(201, 202, 201, 0.973);
+        border-radius: 50px;
+        margin-bottom: 20px;
     }
-
 
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 900px;
     }
 
     li {
@@ -85,10 +114,10 @@
         font-size: 13px;
         font-weight: bold;
         color: white;
-        margin: 0px 4px 0px 0px;
+        margin: auto;
     }
 
-    li button a:hover {
+    .signin-text:hover {
         text-decoration: none;
     }
 
@@ -108,9 +137,21 @@
         font-size: 13px;
         color: rgba(0,0,0,0.87);
     }
+    
+    .lightgrey {
+        color: rgba(143, 138, 138, 0.87);
+    }
 
     .center {
-        margin: auto;
+        margin-left: 25%;
+    }
+
+    .mag {
+        transform: translate(50%,-500%);
+    }
+
+    .mic {
+        transform: scale(.08) translate(590%,-1185%);
     }
 
 </style>
