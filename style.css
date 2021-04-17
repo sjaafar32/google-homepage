@@ -53,22 +53,15 @@
         margin: 30px 0px 0px 5px;
     }
     .Searchbar{
-        width: 582px;
-        height: 44px;
+        width: 400px;
+        height: 40px;
         border-width: 1px;
         border-radius: 50px;
         border-style: solid;
         border-color: rgba(201, 202, 201, 0.973);
         margin-top: 30px;
-        
-        height: 40px;
-        width: 500px;
-        padding: 0px, 40px;
-        border-width: 1pt;
-        border-style: solid;
-        border-color: rgba(201, 202, 201, 0.973);
-        border-radius: 50px;
-        margin-bottom: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .container{
@@ -147,11 +140,11 @@
     }
 
     .mag {
-        transform: translate(50%,-500%);
+        transform: translate(50%,-420%);
     }
 
     .mic {
-        transform: scale(.08) translate(590%,-1185%);
+        transform: scale(.08) translate(820%,-1100%);
     }
 
 </style>
